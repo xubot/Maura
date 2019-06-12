@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity">
+
+
+
+    <ImageView
+        android:id="@+id/guide_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/guide_intent_next_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/x3"
+        android:paddingBottom="@dimen/x3"
+        android:paddingLeft="@dimen/y5"
+        android:paddingRight="@dimen/y5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/y5"
+        android:layout_marginRight="@dimen/x5"
+        android:background="@drawable/circular_button_shape"
+        android:text="跳 过"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+
+    <!--&lt;!&ndash;顶部的需要沉浸的图片View 或其他东西 视频View  等 &ndash;&gt;
+    <ImageView
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.example.administrator.maura.StatusBarHeightView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:use_type="use_padding_top"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/guide_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/guide_intent_next_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x3"
+                android:paddingBottom="@dimen/x3"
+                android:paddingLeft="@dimen/y5"
+                android:paddingRight="@dimen/y5"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/y5"
+                android:layout_marginRight="@dimen/x5"
+                android:background="@drawable/circular_button_shape"
+                android:text="跳 过"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </com.example.administrator.maura.StatusBarHeightView>
+-->
+
+
+</RelativeLayout>

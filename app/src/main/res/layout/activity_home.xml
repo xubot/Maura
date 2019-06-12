@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:background="#eeeeee"
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+
+    <com.example.administrator.maura.Tool.NavigationView
+        android:id="@+id/navigationView"
+        android:background="#ffffff"
+        app:image_width="50"
+        app:image_height="70"
+        app:text_size="6sp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30"/>
+
+
+
+</LinearLayout>
